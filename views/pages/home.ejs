@@ -1,0 +1,35 @@
+<!-- Contenido: Formulario -->
+<div class="container">
+    <br><br>
+    <h3 align="center" class="pb-5" style="color: #28a745;">Formulario RFC</h3>
+    <form action="/" method="post">
+        <!-- Fila 1 -->
+        <div class="form-row">
+            <div class="col-md-6 col-xs-12 pb-4">
+                <label for="nombre">Nombre(s):</label>
+                <input type="text" class="form-control" id="nb" placeholder="Ingresa nombre" required
+                    pattern="[A-Za-zñÑ ]+" name="nombre">
+            </div>
+            <div class="col-md-6 col-xs-12 pb-4">
+                <label for="Apaterno">Apellido paterno:</label>
+                <input type="text" class="form-control" id="ap" placeholder="Ingresa apellido paterno" required
+                    pattern="[A-Za-zñÑ ]+" name="Apaterno">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 col-xs-12 pb-4">
+                <label for="Amaterno">Apellido materno:</label>
+                <input type="text" class="form-control" id="am" placeholder="Ingresa apellido materno"
+                    pattern="[A-Za-zñÑ ]+" name="Amaterno">
+            </div>
+            <div class="col-md-6 col-xs-12 pb-4">
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" class="form-control" id="fec" placeholder="Ingresa fecha" name="fecha">
+            </div>
+        </div>
+        <div class="pt-5" align="center">
+            <button type="submit" class="btn btn-outline-success btn-lg" href="/RFC">Obtener</button>
+        </div>
+        <br><br><br>
+    </form>
+</div>
