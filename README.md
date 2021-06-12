@@ -1,2 +1,4 @@
-# GeneradorRFC
-Programa en NodeJS que genera un RFC.
+## :moyai: Simulador de generador de RFC :moyai:
+
+
+Utilizar con sabiduría.
